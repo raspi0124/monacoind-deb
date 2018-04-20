@@ -17,13 +17,12 @@ WantedBy = multi-user.target
 "
 echo "Finished installing monacoind."
 echo "Adding monacoind to service.."
-echo "$service"
 sudo echo "$service" > /etc/systemd/system/monacoind.service
 sudo systemctl enable monacoind
 echo "Added monacoind to service! execute  sudo systemctl monacoind start  to start!"
 echo "and make sure you wrote config file before starting monacoind! or else, monacoind will give you an error!"
 echo "Now, this installation is over! Have fan!"
-
+echo "\n"
 echo "Copyright for Monacoind:"
 echo "Copyright (C) 2009-2018 The Bitcoin Core developers
 Copyright (C) 2011-2018 The Litecoin Core developers
@@ -32,8 +31,10 @@ Copyright (C) 2011-2018 The DigiByte developers
 Copyright (C) 2014-2018 The Dash developers
 Copyright (C) 2014-2018 The Vertcoin Developers
 Copyright (C) 2013-2019 The Monacoin Core developers"
+echo "\n"
 echo "Copyright for this installer:"
 echo "Copyright (C) 2018 raspi0124"
+echo "\n"
 echo "This installer is licenced with GPLv3."
 
 exit 0
