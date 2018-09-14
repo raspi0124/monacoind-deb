@@ -1,4 +1,4 @@
-90583fb53a10528a71854879f6dcd9ad  usr/bin/monacoind
-f23e2f9912af794d40834ced86a53d01  usr/bin/monacoin-cli
-4f232453251941d78f71755c036c3470  usr/share/man/man1/monacoind.1
-d7d55b1f0c0c6f83d0f7b57ab72143b7  usr/share/man/man1/monacoin-cli.1
+110587a45c90c59007f340ae6214779f  usr/bin/monacoin-cli
+e24343b9fe1645f1a4dbe31135a1ebc4  usr/bin/monacoind
+885f53ede77f419126803f19d53371e9  usr/share/man/man1/monacoind.1
+3e601e4726d575cabd3eb57f6069eea2  usr/share/man/man1/monacoin-cli.1

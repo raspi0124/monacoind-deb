@@ -20,7 +20,7 @@ echo "Adding monacoind to service.."
 sudo echo "$service" > /etc/systemd/system/monacoind.service
 sudo systemctl enable monacoind
 echo "Added monacoind to service! execute  sudo systemctl monacoind start  to start!"
-echo "and make sure you wrote config file before starting monacoind! or else, monacoind will give you an error!"
+echo "and make sure you write config file before starting monacoind! or else, monacoind will give you an error!"
 echo "Now, this installation is over! Have fan!"
 echo "\n"
 echo "Copyright for Monacoind:"
