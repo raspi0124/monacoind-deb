@@ -1,12 +1,8 @@
 Package: monacoind
-Version: 0.16.2
+Version: 0.15.1-1
 Section: comm
 Priority: optional
-Architecture: amd64
+Architecture: armhf
 Essential: no
-Suggests:
 Maintainer: raspi0124 <rapsi0124@gmail.com>
-Conflicts:
-Replaces:
-Provides:
 Description: Monacoind debian package
