@@ -1,5 +1,5 @@
 Package: monacoind
-Version: 0.15.1-1
+Version: 0.16.2
 Section: comm
 Priority: optional
 Architecture: armhf
